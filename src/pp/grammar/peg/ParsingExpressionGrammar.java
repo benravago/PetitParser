@@ -50,9 +50,3 @@ public class ParsingExpressionGrammar extends GrammarDefinition {
     def("sp",          anyOf(" \t\n").star() );
   }
 }
-
-    def("nonterminal", pattern("a-zA-Z").plus().trim() );
-    def("sp", anyOf(" \t\n").star() );
-  }
-
-}
