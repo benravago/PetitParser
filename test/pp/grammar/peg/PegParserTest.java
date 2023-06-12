@@ -1,16 +1,9 @@
 package pp.grammar.peg;
 
+import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.ArrayList;
-
-import org.junit.jupiter.api.Test;
-
-import petit.parser.ExamplesTest;
 import petit.parser.PetitParser;
-import petit.parser.utils.Tracer;
 
 class PegParserTest {
   
